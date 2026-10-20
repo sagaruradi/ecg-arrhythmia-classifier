@@ -1,0 +1,52 @@
+{
+    "class_names": [
+        "Normal (N)",
+        "Supraventricular (S)",
+        "Ventricular (V)",
+        "Fusion (F)"
+    ],
+    "class_short_names": [
+        "N",
+        "S",
+        "V",
+        "F"
+    ],
+    "aami_mapping": {
+        "N": 0,
+        "L": 0,
+        "R": 0,
+        "e": 0,
+        "j": 0,
+        "A": 1,
+        "a": 1,
+        "J": 1,
+        "S": 1,
+        "V": 2,
+        "E": 2,
+        "!": 2,
+        "F": 3
+    },
+    "train_records": [
+        "100",
+        "106",
+        "118",
+        "201",
+        "208",
+        "209",
+        "210"
+    ],
+    "val_records": [
+        "119",
+        "223"
+    ],
+    "test_records": [
+        "200",
+        "213",
+        "214",
+        "222"
+    ],
+    "sampling_rate": 360,
+    "segment_length": 256,
+    "best_val_f1": 95.26153601020098,
+    "best_val_acc": 95.42583315181878
+}

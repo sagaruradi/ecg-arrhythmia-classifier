@@ -1,0 +1,32 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environment
+env/
+venv/
+.venv/
+ENV/
+
+# Data cache (keep test_data.npz for Streamlit Cloud deployment)
+data/processed/train_data.npz
+data/processed/val_data.npz
+mit-bih-arrhythmia-database-1.0.0/
+
+# Operating System
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Antigravity and temp logs
+.gemini/
+*.log
